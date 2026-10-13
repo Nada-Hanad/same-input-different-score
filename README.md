@@ -4,7 +4,7 @@
 
 This research artifact examines how releases of the MDN HTTP Observatory change assessments when website responses are held fixed. It separates changes in tests, scores, grades and modeled remediation plans, with source and dependency evidence for interpreting the differences.
 
-[Explore the anonymous interactive platform](https://anonymous.4open.science/w/web-scorer-release-audit/) · [Anonymous repository](https://anonymous.4open.science/r/web-scorer-release-audit/)
+[Explore the anonymous interactive platform](https://anonymous.4open.science/w/same-input-different-score) · [Anonymous repository](https://anonymous.4open.science/r/same-input-different-score/)
 
 The platform provides seven linked views: Overview, Release Explorer, Remediation Plans, Mechanisms, Population Effects, Release-Impact Audit and Artifact. Selections can be shared using the URL fragment.
 
