@@ -1,0 +1,57 @@
+{
+  "figures": [
+    {
+      "number": 1,
+      "label": "MDN HTTP Observatory scoring pipeline",
+      "kind": "methodological diagram",
+      "generated_assets": [],
+      "reproduction": "Methodological correspondence only; no diagram or manuscript is bundled"
+    },
+    {
+      "number": 2,
+      "label": "Weighted rates of exposure, test, score, and grade changes",
+      "kind": "numerical result",
+      "figure_values_key": "fig_cascade",
+      "generated_assets": [
+        "figures/fig_cascade.pdf",
+        "figures/fig_cascade.png"
+      ],
+      "reproduction": "Public numerical regeneration from included aggregates and recorded intervals; reconstructed layout"
+    },
+    {
+      "number": 3,
+      "label": "Websites with failing minimum-action plans",
+      "kind": "numerical result",
+      "figure_values_key": "fig_remediation_plan_failures",
+      "generated_assets": [
+        "figures/fig_remediation_plan_failures.pdf",
+        "figures/fig_remediation_plan_failures.png"
+      ],
+      "reproduction": "Public numerical regeneration of within-pair every/some failure counts; not distinct website unions"
+    }
+  ],
+  "tables": [
+    {
+      "number": 1,
+      "label": "Preregistered validation results"
+    },
+    {
+      "number": 2,
+      "label": "Eight pairs with scoring-relevant source or dependency changes"
+    },
+    {
+      "number": 3,
+      "label": "Revision disclosure in primary sources"
+    }
+  ],
+  "supplementary_plots": [
+    {
+      "label": "1.7.1 uncurved A-plan margins",
+      "figure_values_key": "fig_margin_companion",
+      "generated_assets": [
+        "figures/fig_margin_companion.pdf",
+        "figures/fig_margin_companion.png"
+      ]
+    }
+  ]
+}

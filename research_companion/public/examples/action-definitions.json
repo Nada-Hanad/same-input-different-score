@@ -1,0 +1,11 @@
+[
+ {"id":"csp","label":"Content Security Policy","header":"content-security-policy","value":"default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'","modifies":"Replace the selected auto response's CSP header; body remains fixed."},
+ {"id":"hsts","label":"Strict Transport Security","header":"strict-transport-security","value":"max-age=63072000; includeSubDomains; preload","modifies":"Replace the selected auto response's HSTS header; redirect chain and certificate evidence remain fixed."},
+ {"id":"xfo","label":"Frame options","header":"x-frame-options","value":"DENY","modifies":"Replace the selected auto response's X-Frame-Options header."},
+ {"id":"xcto","label":"Content-type options","header":"x-content-type-options","value":"nosniff","modifies":"Replace the selected auto response's X-Content-Type-Options header."},
+ {"id":"referrer","label":"Referrer Policy","header":"referrer-policy","value":"no-referrer","modifies":"Replace the selected auto response's Referrer-Policy header."},
+ {"id":"corp","label":"Cross-Origin Resource Policy","header":"cross-origin-resource-policy","value":"same-origin","modifies":"Replace the selected auto response's CORP header."},
+ {"id":"coop","label":"Cross-Origin Opener Policy","header":"cross-origin-opener-policy","value":"same-origin","modifies":"Replace the selected auto response's COOP header; it affects releases that score that test."},
+ {"id":"coep","label":"Cross-Origin Embedder Policy","header":"cross-origin-embedder-policy","value":"require-corp","modifies":"Replace the selected auto response's COEP header; it affects releases that score that test."},
+ {"id":"cookies","label":"Cookie flags","header":null,"value":null,"modifies":"In the active remediate.mjs implementation, set secure=true, httpOnly=true and sameSite=strict on every existing session-jar cookie; an empty jar stays empty. Earlier actions.mjs prototype instead adds a fixed synthetic Set-Cookie header."}
+]

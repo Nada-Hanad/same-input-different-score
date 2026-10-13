@@ -1,0 +1,87 @@
+{
+  "site": {
+    "hostname": "fixture.invalid",
+    "port": null,
+    "path": null
+  },
+  "httpPort": 80,
+  "httpsPort": 443,
+  "responses": {
+    "auto": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-type": "text/html",
+        "x-frame-options": "DENY",
+        "strict-transport-security": "max-age=63072000; includeSubDomains",
+        "referrer-policy": "no-referrer",
+        "cross-origin-resource-policy": "same-origin"
+      },
+      "verified": true,
+      "httpEquiv": [],
+      "requestHeaders": {},
+      "hasRequest": true
+    },
+    "https": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-type": "text/html",
+        "x-frame-options": "DENY",
+        "strict-transport-security": "max-age=63072000; includeSubDomains",
+        "referrer-policy": "no-referrer",
+        "cross-origin-resource-policy": "same-origin"
+      },
+      "verified": true,
+      "httpEquiv": [],
+      "requestHeaders": {},
+      "hasRequest": true
+    },
+    "autoIs": "https",
+    "http": {
+      "status": 301,
+      "statusText": "Moved",
+      "headers": {
+        "location": "https://fixture.invalid/"
+      },
+      "verified": true,
+      "httpEquiv": [],
+      "requestHeaders": {},
+      "hasRequest": true
+    },
+    "cors": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {},
+      "verified": true,
+      "httpEquiv": [],
+      "requestHeaders": {
+        "Origin": "https://probe.invalid"
+      },
+      "hasRequest": true
+    }
+  },
+  "httpRedirects": [
+    {
+      "url": "http://fixture.invalid/",
+      "status": 301
+    },
+    {
+      "url": "https://fixture.invalid/",
+      "status": 200
+    }
+  ],
+  "httpsRedirects": [
+    {
+      "url": "https://fixture.invalid/",
+      "status": 200
+    }
+  ],
+  "body": "<!doctype html><html><head><base href=\"https://fixture.invalid/\"></head><body><script src=\"//cdn.external.invalid/script.js\"></script></body></html>",
+  "session": {
+    "url": "https://fixture.invalid/",
+    "jar": {
+      "cookies": []
+    }
+  }
+}

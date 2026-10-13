@@ -1,0 +1,543 @@
+{
+  "scope": "Exact plotted values from included aggregates; geometry reconstructed, not pixel-identical manuscript reproduction. No new uncertainty estimates.",
+  "values": [
+    {
+      "figure": "fig_cascade",
+      "pair": "1.3.3->1.3.5",
+      "metric": "E",
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.3.3->1.3.5",
+      "metric": "T",
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.3.3->1.3.5",
+      "metric": "S",
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.3.3->1.3.5",
+      "metric": "G",
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.3.8->1.4.0",
+      "metric": "E",
+      "value": 0.0701,
+      "ci95": [
+        0.0113,
+        0.1488
+      ],
+      "exposure_status": "parser-faithful corrected"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.3.8->1.4.0",
+      "metric": "T",
+      "value": 0.0298,
+      "ci95": [
+        0.005,
+        0.076
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.3.8->1.4.0",
+      "metric": "S",
+      "value": 0.0298,
+      "ci95": [
+        0.0052,
+        0.0764
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.3.8->1.4.0",
+      "metric": "G",
+      "value": 0.0298,
+      "ci95": [
+        0.0046,
+        0.0737
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.4.8->1.4.9",
+      "metric": "E",
+      "value": 0.3248,
+      "ci95": [
+        0.1727,
+        0.5071
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.4.8->1.4.9",
+      "metric": "T",
+      "value": 0.6138,
+      "ci95": [
+        0.4051,
+        0.838
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.4.8->1.4.9",
+      "metric": "S",
+      "value": 0.2141,
+      "ci95": [
+        0.1058,
+        0.3433
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.4.8->1.4.9",
+      "metric": "G",
+      "value": 0.2045,
+      "ci95": [
+        0.0943,
+        0.3258
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.4.9->1.5.0",
+      "metric": "E",
+      "value": 29.4262,
+      "ci95": [
+        28.2328,
+        30.7365
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.4.9->1.5.0",
+      "metric": "T",
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.4.9->1.5.0",
+      "metric": "S",
+      "value": 0.0773,
+      "ci95": [
+        0.0133,
+        0.1621
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.4.9->1.5.0",
+      "metric": "G",
+      "value": 0.0027,
+      "ci95": [
+        0.0003,
+        0.0073
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.5.2->1.5.3",
+      "metric": "E",
+      "value": 92.6772,
+      "ci95": [
+        91.8969,
+        93.3739
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.5.2->1.5.3",
+      "metric": "T",
+      "value": 1.0596,
+      "ci95": [
+        0.7891,
+        1.347
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.5.2->1.5.3",
+      "metric": "S",
+      "value": 0.7327,
+      "ci95": [
+        0.4989,
+        0.9737
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.5.2->1.5.3",
+      "metric": "G",
+      "value": 0.5193,
+      "ci95": [
+        0.335,
+        0.7108
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.5.4->1.6.0",
+      "metric": "E",
+      "value": 92.6772,
+      "ci95": [
+        91.9614,
+        93.4
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.5.4->1.6.0",
+      "metric": "T",
+      "value": 0.0003,
+      "ci95": [
+        0.0,
+        0.0007
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.5.4->1.6.0",
+      "metric": "S",
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.5.4->1.6.0",
+      "metric": "G",
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.6.1->1.6.2",
+      "metric": "E",
+      "value": 0.4998,
+      "ci95": [
+        0.3161,
+        0.7003
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.6.1->1.6.2",
+      "metric": "T",
+      "value": 0.2849,
+      "ci95": [
+        0.1479,
+        0.4437
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.6.1->1.6.2",
+      "metric": "S",
+      "value": 0.2148,
+      "ci95": [
+        0.1027,
+        0.3493
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.6.1->1.6.2",
+      "metric": "G",
+      "value": 0.1749,
+      "ci95": [
+        0.0708,
+        0.298
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.6.3->1.7.0",
+      "metric": "E",
+      "value": 10.5437,
+      "ci95": [
+        9.7068,
+        11.3868
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.6.3->1.7.0",
+      "metric": "T",
+      "value": 10.5437,
+      "ci95": [
+        9.7073,
+        11.347
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.6.3->1.7.0",
+      "metric": "S",
+      "value": 0.3641,
+      "ci95": [
+        0.1997,
+        0.55
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_cascade",
+      "pair": "1.6.3->1.7.0",
+      "metric": "G",
+      "value": 0.1836,
+      "ci95": [
+        0.0717,
+        0.3248
+      ],
+      "exposure_status": "recorded"
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.4.8->1.4.9",
+      "target": "B",
+      "every": 23,
+      "some": 11
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.5.2->1.5.3",
+      "target": "B",
+      "every": 83,
+      "some": 0
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.6.1->1.6.2",
+      "target": "B",
+      "every": 3,
+      "some": 1
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.6.3->1.7.0",
+      "target": "B",
+      "every": 1,
+      "some": 4
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.4.8->1.4.9",
+      "target": "A",
+      "every": 56,
+      "some": 0
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.5.2->1.5.3",
+      "target": "A",
+      "every": 64,
+      "some": 0
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.6.1->1.6.2",
+      "target": "A",
+      "every": 0,
+      "some": 1
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.6.3->1.7.0",
+      "target": "A",
+      "every": 11,
+      "some": 0
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.4.8->1.4.9",
+      "target": "A+",
+      "every": 56,
+      "some": 0
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.5.2->1.5.3",
+      "target": "A+",
+      "every": 64,
+      "some": 0
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.6.1->1.6.2",
+      "target": "A+",
+      "every": 0,
+      "some": 1
+    },
+    {
+      "figure": "fig_remediation_plan_failures",
+      "pair": "1.6.3->1.7.0",
+      "target": "A+",
+      "every": 11,
+      "some": 0
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "uncurved_margin",
+      "margin": 0,
+      "plans": 6454
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "uncurved_margin",
+      "margin": 5,
+      "plans": 3487
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "uncurved_margin",
+      "margin": 10,
+      "plans": 1441
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 5,
+      "plans": 13
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 10,
+      "plans": 41
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 15,
+      "plans": 3055
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 20,
+      "plans": 4190
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 25,
+      "plans": 1825
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 30,
+      "plans": 806
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 35,
+      "plans": 311
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 40,
+      "plans": 251
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 45,
+      "plans": 50
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 50,
+      "plans": 48
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 55,
+      "plans": 122
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 60,
+      "plans": 420
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 65,
+      "plans": 224
+    },
+    {
+      "figure": "fig_margin_companion",
+      "metric": "displayed_margin",
+      "margin": 70,
+      "plans": 26
+    }
+  ]
+}

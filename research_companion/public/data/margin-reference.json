@@ -1,0 +1,15 @@
+{
+  "release": "1.7.1",
+  "target": "A",
+  "eligible": 10496,
+  "optimal_plans": 11382,
+  "uncurved_zero_plans": 6454,
+  "every_plan_zero_margin_websites": 5577,
+  "uncurved_margin": {
+    "0": 6454,
+    "10": 1441,
+    "5": 3487
+  },
+  "status": "passed",
+  "method": "Independent enumeration from saved uncurved vectors; no original analysis imports"
+}

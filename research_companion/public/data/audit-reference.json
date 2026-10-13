@@ -1,0 +1,47 @@
+{
+  "calibration": {
+    "both_scored": 195,
+    "exact_score": 169,
+    "exact_grade": 171
+  },
+  "release_audits": [
+    {
+      "baseline": "1.6.3",
+      "candidate": "1.7.0",
+      "sites_compared": 16264,
+      "score_changed": 64,
+      "grade_changed": 21,
+      "test_outcome_changed": 1857,
+      "plan_vectors_differ_sites": 10678
+    },
+    {
+      "baseline": "1.7.1",
+      "candidate": "1.7.1-tldts7.4.18",
+      "sites_compared": 16264,
+      "score_changed": 0,
+      "grade_changed": 0,
+      "test_outcome_changed": 0,
+      "plan_vectors_differ_sites": 0
+    },
+    {
+      "baseline": "1.7.1",
+      "candidate": "main-093035e3-tldts7.4.15",
+      "sites_compared": 16264,
+      "score_changed": 0,
+      "grade_changed": 0,
+      "test_outcome_changed": 0,
+      "plan_vectors_differ_sites": 0
+    },
+    {
+      "baseline": "1.7.1",
+      "candidate": "main-093035e3",
+      "sites_compared": 16264,
+      "score_changed": 0,
+      "grade_changed": 0,
+      "test_outcome_changed": 0,
+      "plan_vectors_differ_sites": 0
+    }
+  ],
+  "method": "Independent counters over recorded calibration, candidate replay and 512-score vectors; no live request or original analysis imports",
+  "status": "passed"
+}

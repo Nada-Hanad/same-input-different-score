@@ -1,0 +1,8 @@
+{
+  "name": "synthetic-observatory-1.5.2",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@mdn/mdn-http-observatory": "1.5.2"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "method": "Independent streaming CSP header predicate on stored inputs; no original analysis imports. Responses never exported.",
+  "counts": {
+    "registered": 0,
+    "corrected": 41
+  },
+  "status": "passed"
+}

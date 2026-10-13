@@ -1,0 +1,150 @@
+{
+  "kind": "synthetic unchanged-original-score plan failure",
+  "pair": "1.5.2->1.5.3",
+  "network_attempts": 0,
+  "original": {
+    "old": {
+      "score": 0,
+      "grade": "F",
+      "algorithm_version": 5,
+      "uncurved": -35,
+      "extra": 0,
+      "tests": {
+        "content-security-policy": "csp-not-implemented",
+        "cookies": "cookies-session-without-secure-flag",
+        "cross-origin-resource-sharing": "cross-origin-resource-sharing-not-implemented",
+        "redirection": "redirection-missing",
+        "referrer-policy": "referrer-policy-not-implemented",
+        "strict-transport-security": "hsts-not-implemented",
+        "subresource-integrity": "sri-not-implemented-but-external-scripts-loaded-securely",
+        "x-content-type-options": "x-content-type-options-not-implemented",
+        "x-frame-options": "x-frame-options-not-implemented",
+        "cross-origin-resource-policy": "corp-not-implemented"
+      },
+      "mods": {
+        "content-security-policy": -25,
+        "cookies": -40,
+        "cross-origin-resource-sharing": 0,
+        "redirection": -20,
+        "referrer-policy": 0,
+        "strict-transport-security": -20,
+        "subresource-integrity": -5,
+        "x-content-type-options": -5,
+        "x-frame-options": -20,
+        "cross-origin-resource-policy": 0
+      }
+    },
+    "new": {
+      "score": 0,
+      "grade": "F",
+      "algorithm_version": 5,
+      "uncurved": -80,
+      "extra": 0,
+      "tests": {
+        "content-security-policy": "csp-not-implemented",
+        "cookies": "cookies-session-without-secure-flag",
+        "cross-origin-resource-sharing": "cross-origin-resource-sharing-not-implemented",
+        "redirection": "redirection-missing",
+        "referrer-policy": "referrer-policy-not-implemented",
+        "strict-transport-security": "hsts-not-implemented",
+        "subresource-integrity": "sri-not-implemented-and-external-scripts-not-loaded-securely",
+        "x-content-type-options": "x-content-type-options-not-implemented",
+        "x-frame-options": "x-frame-options-not-implemented",
+        "cross-origin-resource-policy": "corp-not-implemented"
+      },
+      "mods": {
+        "content-security-policy": -25,
+        "cookies": -40,
+        "cross-origin-resource-sharing": 0,
+        "redirection": -20,
+        "referrer-policy": 0,
+        "strict-transport-security": -20,
+        "subresource-integrity": -50,
+        "x-content-type-options": -5,
+        "x-frame-options": -20,
+        "cross-origin-resource-policy": 0
+      }
+    }
+  },
+  "plan": {
+    "target_grade": "B",
+    "target_score": 70,
+    "subsets_evaluated_per_release": 512,
+    "minimum_actions": 3,
+    "tied_minimum_plans": [
+      {
+        "actions": [
+          "csp",
+          "hsts",
+          "cookies"
+        ],
+        "old": {
+          "score": 70,
+          "grade": "B",
+          "algorithm_version": 5,
+          "uncurved": 70,
+          "extra": 20,
+          "tests": {
+            "content-security-policy": "csp-implemented-with-no-unsafe-default-src-none",
+            "cookies": "cookies-secure-with-httponly-sessions-and-samesite",
+            "cross-origin-resource-sharing": "cross-origin-resource-sharing-not-implemented",
+            "redirection": "redirection-missing",
+            "referrer-policy": "referrer-policy-not-implemented",
+            "strict-transport-security": "hsts-implemented-max-age-at-least-six-months",
+            "subresource-integrity": "sri-not-implemented-but-external-scripts-loaded-securely",
+            "x-content-type-options": "x-content-type-options-not-implemented",
+            "x-frame-options": "x-frame-options-implemented-via-csp",
+            "cross-origin-resource-policy": "corp-not-implemented"
+          },
+          "mods": {
+            "content-security-policy": 10,
+            "cookies": 5,
+            "cross-origin-resource-sharing": 0,
+            "redirection": -20,
+            "referrer-policy": 0,
+            "strict-transport-security": 0,
+            "subresource-integrity": -5,
+            "x-content-type-options": -5,
+            "x-frame-options": 5,
+            "cross-origin-resource-policy": 0
+          }
+        },
+        "new": {
+          "score": 25,
+          "grade": "D-",
+          "algorithm_version": 5,
+          "uncurved": 25,
+          "extra": 20,
+          "tests": {
+            "content-security-policy": "csp-implemented-with-no-unsafe-default-src-none",
+            "cookies": "cookies-secure-with-httponly-sessions-and-samesite",
+            "cross-origin-resource-sharing": "cross-origin-resource-sharing-not-implemented",
+            "redirection": "redirection-missing",
+            "referrer-policy": "referrer-policy-not-implemented",
+            "strict-transport-security": "hsts-implemented-max-age-at-least-six-months",
+            "subresource-integrity": "sri-not-implemented-and-external-scripts-not-loaded-securely",
+            "x-content-type-options": "x-content-type-options-not-implemented",
+            "x-frame-options": "x-frame-options-implemented-via-csp",
+            "cross-origin-resource-policy": "corp-not-implemented"
+          },
+          "mods": {
+            "content-security-policy": 10,
+            "cookies": 5,
+            "cross-origin-resource-sharing": 0,
+            "redirection": -20,
+            "referrer-policy": 0,
+            "strict-transport-security": 0,
+            "subresource-integrity": -50,
+            "x-content-type-options": -5,
+            "x-frame-options": 5,
+            "cross-origin-resource-policy": 0
+          }
+        }
+      }
+    ],
+    "every_tied_plan_fails": true,
+    "maximum_new_score": 30,
+    "any_new_subset_reaches": false
+  },
+  "construction": "Based on parser-input.json: omit protective headers, retain an HTTP response without redirection, and add one explicitly synthetic session cookie. HTTPS base and protocol-relative script remain fixed. All values are artificial, under .invalid; synthetic-only is not a real session value."
+}

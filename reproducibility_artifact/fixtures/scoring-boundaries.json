@@ -1,0 +1,10 @@
+{
+ "kind":"synthetic arithmetic fixtures; not observed release replay",
+ "rule":"Start at 100; add nonpositive modifiers; add positive modifiers only if uncurved >=90; floor final score at zero",
+ "cases":[
+  {"modifiers":[-10,20],"uncurved":90,"score":110},
+  {"modifiers":[-15,20],"uncurved":85,"score":85},
+  {"modifiers":[-125],"uncurved":-25,"score":0},
+  {"modifiers":[-150],"uncurved":-50,"score":0}
+ ]
+}

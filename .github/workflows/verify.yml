@@ -1,0 +1,49 @@
+name: Verify research artifact
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-14]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24.21.0'
+          cache: npm
+          cache-dependency-path: research_companion/package-lock.json
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.11'
+      - name: Check committed source integrity
+        run: python tools/verify_publication.py --source
+      - name: Verify scientific summaries and tests
+        run: make -C reproducibility_artifact validate test
+      - name: Install exact scorers and execute offline fixtures
+        run: make -C reproducibility_artifact install-scorers replay
+      - name: Regenerate figures in an isolated environment
+        run: make -C reproducibility_artifact figure-env figures
+      - name: Install frontend dependencies
+        run: npm --prefix research_companion ci
+      - name: Check TypeScript
+        run: npm --prefix research_companion run typecheck
+      - name: Test frontend
+        run: npm --prefix research_companion test
+      - name: Build committed static application
+        run: |
+          npm --prefix research_companion run build
+          python tools/build_site.py
+      - name: Check static assets, scientific invariants and publication integrity
+        run: |
+          python tools/verify_publication.py
+          python -m unittest discover -s tools -p 'test_*.py'

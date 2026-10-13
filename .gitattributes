@@ -1,0 +1,7 @@
+# SHA-256 manifests cover exact bytes, including original CSV line endings.
+# Preserve bytes across Git checkouts; do not use Git LFS for review files.
+* -text
+*.zip -diff
+*.pdf -diff
+*.jpg -diff
+*.png -diff

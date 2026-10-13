@@ -1,0 +1,83 @@
+{
+  "site": {
+    "hostname": "fixture.invalid",
+    "port": null,
+    "path": null
+  },
+  "httpPort": 80,
+  "httpsPort": 443,
+  "responses": {
+    "auto": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "verified": true,
+      "httpEquiv": [],
+      "requestHeaders": {},
+      "hasRequest": true
+    },
+    "https": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "verified": true,
+      "httpEquiv": [],
+      "requestHeaders": {},
+      "hasRequest": true
+    },
+    "autoIs": "https",
+    "http": {
+      "status": 200,
+      "statusText": "Moved",
+      "headers": {},
+      "verified": true,
+      "httpEquiv": [],
+      "requestHeaders": {},
+      "hasRequest": true
+    },
+    "cors": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {},
+      "verified": true,
+      "httpEquiv": [],
+      "requestHeaders": {
+        "Origin": "https://probe.invalid"
+      },
+      "hasRequest": true
+    }
+  },
+  "httpRedirects": [
+    {
+      "url": "http://fixture.invalid/",
+      "status": 200
+    }
+  ],
+  "httpsRedirects": [
+    {
+      "url": "https://fixture.invalid/",
+      "status": 200
+    }
+  ],
+  "body": "<!doctype html><html><head><base href=\"https://fixture.invalid/\"></head><body><script src=\"//cdn.external.invalid/script.js\"></script></body></html>",
+  "session": {
+    "url": "https://fixture.invalid/",
+    "jar": {
+      "cookies": [
+        {
+          "key": "sessionid",
+          "value": "synthetic-only",
+          "domain": "fixture.invalid",
+          "path": "/",
+          "hostOnly": true,
+          "secure": false,
+          "httpOnly": false
+        }
+      ]
+    }
+  }
+}

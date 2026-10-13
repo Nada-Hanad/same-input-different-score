@@ -1,0 +1,11 @@
+**/node_modules/
+**/__pycache__/
+**/.vite/
+**/.figure-env/
+**/generated/
+research_companion/dist/
+.DS_Store
+.env
+.env.*
+*.log
+# site/ is intentionally committed for the anonymous website view.

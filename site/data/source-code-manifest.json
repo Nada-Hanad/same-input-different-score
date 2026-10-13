@@ -1,0 +1,93 @@
+[
+  {
+    "included": "source/observatory_replay/aggregate_drift.py",
+    "original": "audit/scripts/observatory_replay/aggregate_drift.py",
+    "sha256": "9440e3bb609d01dbe177a2ff4a2de6d4048d5a8f245a1f45923b636b6febdd79",
+    "download_url": "/files/source/observatory_replay/aggregate_drift.py",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/analyze_revisions.py",
+    "original": "audit/scripts/observatory_replay/analyze_revisions.py",
+    "sha256": "948083e2d1a800c409355b55c07e2744fd8b36c3e5caa3802dc18135411fd2c3",
+    "download_url": "/files/source/observatory_replay/analyze_revisions.py",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/audit_release.py",
+    "original": "audit/scripts/observatory_replay/audit_release.py",
+    "sha256": "0656e0c700dea80e37b170f2fa12410fed4e982601a2373b391bfca7c9680f9d",
+    "download_url": "/files/source/observatory_replay/audit_release.py",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/figures.py",
+    "original": "audit/scripts/observatory_replay/figures.py",
+    "sha256": "6b184fd91abf7a84c6d5811b8fbc77cebbed78be1a2bb550109c741d6fe4785b",
+    "download_url": "/files/source/observatory_replay/figures.py",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/input_codec.mjs",
+    "original": "audit/scripts/observatory_replay/input_codec.mjs",
+    "sha256": "8c8da9a164ee2eca463b3a49594b16b35eee70c8d2efdce6528d925820b2f755",
+    "download_url": "/files/source/observatory_replay/input_codec.mjs",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/memo_html_parser.mjs",
+    "original": "audit/scripts/observatory_replay/memo_html_parser.mjs",
+    "sha256": "9904cb6cb708c1f6479602d9981224899335dbfbab6e79954f90c97ac2d26409",
+    "download_url": "/files/source/observatory_replay/memo_html_parser.mjs",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/memo_jsdom.mjs",
+    "original": "audit/scripts/observatory_replay/memo_jsdom.mjs",
+    "sha256": "d91a70331ec0ad6bf3ee3beb22c14872f72ad43a3f41fab2d16aaad17d9c1e1a",
+    "download_url": "/files/source/observatory_replay/memo_jsdom.mjs",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/plan_validity.py",
+    "original": "audit/scripts/observatory_replay/plan_validity.py",
+    "sha256": "c505ebba058a6ea3a8bc105fe63dffb3f3a37b1aa158b15a32db52e4771a09b5",
+    "download_url": "/files/source/observatory_replay/plan_validity.py",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/plan_validity_figures.py",
+    "original": "audit/scripts/observatory_replay/plan_validity_figures.py",
+    "sha256": "87d760e29b0ecbdb263be1981209483217158719141e0479a5783cc3858d8ba8",
+    "download_url": "/files/source/observatory_replay/plan_validity_figures.py",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/remediate.mjs",
+    "original": "audit/scripts/observatory_replay/remediate.mjs",
+    "sha256": "4c4b8a45cb962614fb3fe224e6b31fd7cd5cc224e3b51f917ae21061046c465b",
+    "download_url": "/files/source/observatory_replay/remediate.mjs",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/replay_all.mjs",
+    "original": "audit/scripts/observatory_replay/replay_all.mjs",
+    "sha256": "5738fba1a9c583c2ce7132f727460b5c595137d40eca857d039c4a3d4e1d6f7d",
+    "download_url": "/files/source/observatory_replay/replay_all.mjs",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/run_replay.py",
+    "original": "audit/scripts/observatory_replay/run_replay.py",
+    "sha256": "0fadf27a73cd5772916abe56832253e6d6dea35f4fc6204cd335ac602076558c",
+    "download_url": "/files/source/observatory_replay/run_replay.py",
+    "license_status": "Original research implementation; project license not assigned"
+  },
+  {
+    "included": "source/observatory_replay/stub_retriever.mjs",
+    "original": "audit/scripts/observatory_replay/stub_retriever.mjs",
+    "sha256": "a5410647dbb4e87e0216bec550aa0551bbda4718caf0e67df92589fdfcc5e097",
+    "download_url": "/files/source/observatory_replay/stub_retriever.mjs",
+    "license_status": "Original research implementation; project license not assigned"
+  }
+]
